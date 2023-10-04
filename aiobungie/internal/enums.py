@@ -373,9 +373,10 @@ class ComponentType(Enum):
     """All profile components."""
 
     VENDORS = 400
+    VENDOR_CATEGORIES = 401
     VENDOR_SALES = 402
     VENDOR_RECEIPTS = 101
-    ALL_VENDORS = (VENDORS, VENDOR_RECEIPTS, VENDOR_SALES)
+    ALL_VENDORS = (VENDORS, VENDOR_RECEIPTS, VENDOR_SALES, VENDOR_CATEGORIES)
     """All vendor components."""
 
     # Items
